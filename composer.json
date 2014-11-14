@@ -31,9 +31,23 @@
             "email": "guilhermeblanco@hotmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/common"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/dbal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/DoctrineModule"
+        }
+    ],
     "require": {
         "php":                               ">=5.3.23",
-        "doctrine/doctrine-module":          "0.9.*",
+        "doctrine/doctrine-module":          "dev-update-hydrator-behavior",
         "doctrine/orm":                      ">=2.4,<2.6-dev",
         "doctrine/dbal":                     ">=2.4,<2.6-dev",
         "zendframework/zend-stdlib":         "~2.3",
